@@ -4,7 +4,7 @@
  */
 
 function saludar(name: string) {
-  console.log(`Hello ${name}`);
+  console.log(`Hello ${name}`)
 }
 
 /**
@@ -13,12 +13,12 @@ function saludar(name: string) {
  */
 
 function sayHello(person: { name: string; age: number }) {
-  const { name, age } = person;
-  console.log(`Hi ${name}, you are ${age} years old.`);
+  const { name, age } = person
+  console.log(`Hi ${name}, you are ${age} years old.`)
 }
 
-saludar("Brayan");
-sayHello({ name: "Bricher", age: 51 });
+saludar("Brayan")
+sayHello({ name: "Bricher", age: 51 })
 
 /**
  * 3. Function with return
@@ -26,7 +26,7 @@ sayHello({ name: "Bricher", age: 51 });
  */
 
 function add(a: number, b: number): number {
-  return a + b;
+  return a + b
 }
 
 /**
@@ -35,9 +35,9 @@ function add(a: number, b: number): number {
  */
 
 function set(callback: (name: string) => string) {
-  return callback("Brayan");
+  return callback("Brayan")
 }
 
 set((name) => {
-  return name.toUpperCase();
-});
+  return name.toUpperCase()
+})

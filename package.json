@@ -1,18 +1,17 @@
 {
-  "name": "ts-course",
-  "version": "1.0.0",
-  "description": "Typescript course from zero to Ninja",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Typescript",
-    "Course"
-  ],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "5.1.6"
-  }
+	"name": "ts-course",
+	"version": "1.0.0",
+	"description": "Typescript course from zero to Ninja",
+	"main": "index.js",
+	"scripts": {
+		"lint": "rome check . --apply",
+		"lint:write": "rome format . --write"
+	},
+	"keywords": ["Typescript", "Course"],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"rome": "12.1.3",
+		"typescript": "5.1.6"
+	}
 }
