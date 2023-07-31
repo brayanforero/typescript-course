@@ -20,5 +20,3 @@ other = 34;
  */
 let otherVar: unknown = "asdf";
 other.as; // it throw a error because "as" property is missing
-
-// Last moment: https://youtu.be/fUgxxhI_bvc?list=PLUofhDIg_38pNCZe9ptj72exbFjzyePxT&t=1623
