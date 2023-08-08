@@ -64,3 +64,19 @@ const handler = () => {
 }
 
 type Dispatch = ReturnType<typeof handler>
+
+// Type intersection type
+
+type RiceBase = {
+  name: "rice"
+  color: "white" | "brown"
+}
+type RiceWhite = RiceBase & {
+  kg: number
+}
+
+const riceHealth: RiceWhite = {
+  color: "brown",
+  kg: 0.2,
+  name: "rice",
+}
